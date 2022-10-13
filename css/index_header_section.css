@@ -1,7 +1,41 @@
-.image-logo {
-    width: 250px;
+.header-main {
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url(../img/bg-managenent.png);
 }
 
-.nav-menu__container {
-    display: flex;
+.image-logo {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
+
+.menu-list-item {
+    display: none;
+}
+
+.header-title {
+    color: rgb(247, 247, 245);
+    font-size: 80px;
+    text-align: center;
+}
+
+.header-text-title {
+    color: rgb(255, 255, 255, 0.62);
+    font-family: var(--main-font);
+    font-size: 24px;
+    text-align: center;
+}
+
+@media (min-width: 991px) {
+    .menu-list-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu__container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+
