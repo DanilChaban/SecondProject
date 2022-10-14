@@ -7,6 +7,12 @@
 }
 
 :root {
+    /*fonts*/
     --title-font: 'Dm Serif Display';
     --main-font: 'Nunito Sans';
+
+    /*colors*/
+    --main-color-text: #313c4c;
+    --accent-color-text: rgba(255,255,255,0.62);
+    --simple-color-text: #f7f7f5;
 }

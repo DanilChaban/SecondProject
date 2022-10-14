@@ -25,7 +25,7 @@
 }
 
 .header-text-title {
-    color: rgb(255, 255, 255, 0.62);
+    color: var(--accent-color-text);
     font-family: var(--main-font);
     font-size: 19px;
     text-align: center;
